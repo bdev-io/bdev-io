@@ -1,0 +1,48 @@
+.border-box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: auto;
+  margin: 0;
+  padding: 1rem;
+  list-style: '';
+  margin-bottom: 1rem;
+  background-color: rgba(13, 17, 23, 0.95);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid #565656;
+}
+
+
+.main-box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  padding: 1rem;
+  list-style: none;
+  margin-bottom: 1rem;
+  background-color: rgba(13, 17, 23, 0.95);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid #565656;
+}
+
+.box-title {
+  font-family: 'Monocraft';
+  font-size: 2rem;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.box-content {
+  margin-top: 2rem;
+  font-family: "Mabry Pro", "Gotham Bold", "Spline Sans", "Helvetica Neue", "Google Sans", "Work Sans", Arial, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 0rem;
+}

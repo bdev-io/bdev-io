@@ -1,0 +1,34 @@
+.link-wrapper {}
+
+.link-wrapper > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link-wrapper > ul > li {
+  margin: 0 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: "Monocraft", "Mabry Pro", "Gotham Bold", "Spline Sans", "Helvetica Neue", "Google Sans", "Work Sans", Arial, sans-serif;
+  letter-spacing:1pt
+}
+
+.link-wrapper > ul > li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link-wrapper > ul > li > a:hover {
+  color: #4af626;
+  text-decoration: underline;
+}
+
+
+.about-logo {
+  width: 64%;
+}
